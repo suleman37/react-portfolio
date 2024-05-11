@@ -1,6 +1,7 @@
 import React from "react";
 import hero_img from "../Images/profile.jpg";
 import "./Style.css";
+import "animate.css"
 
 const Hero = () => {
   return (
@@ -10,31 +11,31 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-6 hero">
-              <span className="h2">
+              <span className="h2 animate__animated animate__bounceInLeft">
                 DR. <span className="blue"> WAQAR </span> MEHMOOD
               </span>
-              <h4  className="blue">ASSOCIATE PROFESSOR</h4>
-              <p>
+              <h4  className="blue animate__animated animate__bounceInLeft">ASSOCIATE PROFESSOR</h4>
+              <p className="animate__animated animate__bounceInLeft">
                 PAK-AUSTRIA FACHHOSCHULE - INSTITUTE OF APPLED SCIENCES AND
                 TECHNOLOGY, MANG, HARIPUR, KPK, PAKISTAN.
               </p>
-              <span  className="spec-bl3 bold">
+              <span  className="spec-bl3 bold animate__animated animate__bounceInLeft">
                 {" "}
                 <ion-icon name="phone-portrait-outline"></ion-icon>+92 (300)
                 5220 513
               </span>
               <br />
-              <span className="gray bold">
+              <span className="gray bold animate__animated animate__bounceInLeft">
                 <ion-icon name="mail-outline"></ion-icon>DRWAQAR81@GMAIL.COM
               </span>
               <br />
-              <span  className="spec-bl3 bold">
+              <span  className="spec-bl3 bold animate__animated animate__bounceInLeft">
                 <ion-icon name="mail-outline"></ion-icon>
                 WAQAR.MEHMOOD@FECID.PAF-IAST.EDU.PK
               </span>
             </div>
             <div className="col-12 col-md-6 hero" id="hero-img">
-              <img src={hero_img} alt="" width={"300px"} />
+              <img src={hero_img} alt="" className="animate__animated animate__zoomInUp" width={"300px"} />
             </div>
           </div>
         </div>
@@ -46,7 +47,7 @@ const Hero = () => {
       <div className="container-fluid specialization" id="about">
         <div className="container">
           <div className="row">
-            <div className="col  text-center mt-3">
+            <div className="col  text-center mt-3   animate__animated animate__jackInTheBox" loading="lazy">
               <h1><b className="shadow">ABOUT ME</b></h1>
             </div>
           </div>
