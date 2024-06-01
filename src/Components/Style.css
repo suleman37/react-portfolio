@@ -18,6 +18,10 @@
     color: black;
     height: auto;
 }
+.hero{
+    height: 100vh;
+    margin-top: 70px;
+}
 .speclist-edu ul {
     list-style-type: none;
     gap: 24px;
