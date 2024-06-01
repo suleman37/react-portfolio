@@ -244,7 +244,7 @@ const Hero = () => {
               <h1><b className="shadow">EXPERIENCE</b></h1>
             </div>
           </div>
-          <div className="row">
+          <div className="row expert">
             <div className="col mb-5">
             <h3><b className="shadow">WEB DEVELOPMENT SKILLS</b></h3>
               <div className="col social-skill mt-2">
@@ -312,7 +312,7 @@ const Hero = () => {
               <h3><b className="shadow"> RELEVANT RESEARCH ACTIVITIES ROLES</b></h3>
               <ul>
                 <li  className="spec-bl3 bold mt-3">Member Academic Committee 1st International Conference on Communication Networks and Embedded Systems 2023, PAF-IAST</li>
-                <li>Member Technical Program Committee (TPC) of Software Engineering track of the 14th International Conference on Frontiers of Information Technology (FIT 2016), COMSATS Isb.</li>
+                <li className="gray bold mt-3">Member Technical Program Committee (TPC) of Software Engineering track of the 14th International Conference on Frontiers of Information Technology (FIT 2016), COMSATS Isb.</li>
                 <li  className="spec-bl3 bold mt-3">Technical Program Committee (TPC) of Tutorial track of the 14th International Conference on Frontiers of Information Technology (FIT 2016), COMSATS Isb.</li>
                 <li className="gray bold mt-3">Technical Program Committee (TPC) of Tutorial track of the 14th International Conference on Frontiers of Information Technology (FIT 2016), COMSATS Isb.</li>
                 <li  className="spec-bl3 bold mt-3">Reviewer: Sukkur IBA Journal of Computing and Mathematical Sciences- SJCMS</li>
@@ -414,8 +414,8 @@ const Hero = () => {
                 <li className="spec-bl3 bold mt-3">Islam Ali, Waqar Mehmood, et al., CMMI Compliant Workflow Model to Establish Software Configuration Management Integrity, Accepted in Intelligent Automation & Soft Computing (IF 1.26), Nov 2020<a href="" className="link">Link</a></li>
                 <li className="gray bold mt-3">Musawwer Khan, Waqar Mehmood, et al., CMMI Compliant Modernization Framework to Transform Legacy Systems, Accepted in Intelligent Automation & Soft Computing (IF 1.26), October 2020.</li>
                 <li className="spec-bl3 bold mt-3">Mehmood, Waqar; Jari, Hassan; Tahir, Ali; Aslam, Waqar; Kamran, Muhammad, UCDiff: Difference Detection in Use Case Models of Healthcare System, Journal of Medical Imaging and Health Informatics, Volume 10, Number 10, 1st October 2020, pp. 2369-2377(9), (0.659) DOI:<a href="" className="link">Link</a></li>
-                <li className="gray bold mt-3">Mehmood, Waqar; Shafiq, Muhammad; Saleem, Muhammad Qaiser; Alowayr, Ali Saeed; Aslam, Waqar, A Feature-Based Evaluation of Model Merge Methods for e-Health Solutions, Journal of Medical Imaging and Health Informatics, Volume 10, Number 10, 1st October 2020, pp. 2473-2480(8), IF (0.659) DOI: <a href="" className="link"> doi:10.1109/TBDATA.2017.2701817</a></li>
-                <li className="spec-bl3 bold mt-3">Touseef Tahir, Ghulam Rasool, Waqar Mehmood, Cigdem Gencel, “An Evaluation of Software Measurement Processes in Pakistani Software Industry”, IEEE Access, Vol 6, pp 57868 – 57896, October 2018. IF (3.24), ISSN: 2169-3536 DOI:<a href="" className="link">10.1109/ACCESS.2018.2872956</a>(SCI)</li>
+                <li className="gray bold mt-3">Mehmood, Waqar; Shafiq, Muhammad; Saleem, Muhammad Qaiser; Alowayr, Ali Saeed; Aslam, Waqar, A Feature-Based Evaluation of Model Merge Methods for e-Health Solutions, Journal of Medical Imaging and Health Informatics, Volume 10, Number 10, 1st October 2020, pp. 2473-2480(8)</li>
+                <li className="spec-bl3 bold mt-3">Touseef Tahir, Ghulam Rasool, Waqar Mehmood, Cigdem Gencel, “An Evaluation of Software Measurement Processes in Pakistani Software Industry”, IEEE Access, Vol 6, pp 57868 – 57896, October 2018. IF (3.24), ISSN: 2169-3536</li>
                 <li className="gray bold mt-3">Waqar Mehmood, Nadir Shah, Zahoor-ur-din, Ehsan ullah Munir, “Fine-Granular Model Diff Solution in Model-based Version Control Systems”, Malaysian Journal of Computer Science, Vol. 28, No. 2, pp 152-165, June 2015. (IF 0.60)<a href="/" className="link">Link</a></li>
                 <li className="spec-bl3 bold mt-3">Mukhtiar Memon, Waqar Mehmood, et al., “Security modeling for service-oriented systems using security pattern refinement approach”, Software & Systems Modeling , Volume 13, Issue 2, pp 549-572, May 2014 (IF 1.65)<a href="" className="link">Link</a></li>
                 <li className="gray bold mt-3">Waqar Mehmood, Nadir Shah, Majid Jamal Khan, Mukhriar Memon, M Ikramullah. “Fine-granular model merge solution for model-based version control system”, Malaysian Journal of Computer Science. Vol. 29(3), pp 225-246. 2016. IF (0.60)<a href="" className="link">Link</a></li>
