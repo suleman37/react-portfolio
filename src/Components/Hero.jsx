@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="row">
             <div className="col-12 col-md-6 hero">
               <span className="h2 animate__animated animate__bounceInLeft">
-                DR. <span className="blue"> WAQAR </span> MEHMOOD
+                <span className="fun">DR. </span><span className="blue"> WAQAR </span> <span className="fun"> MEHMOOD</span>
               </span>
               <h4  className="blue animate__animated animate__bounceInLeft">ASSOCIATE PROFESSOR</h4>
               <p className="animate__animated animate__bounceInLeft">
@@ -284,12 +284,15 @@ const Hero = () => {
                   </li>
                 </ul>
               </div>
+              <div className="row">
               <h3><b className="shadow"> TEACHING EXPERIENCE</b></h3>
               <ul>
                 <li  className="spec-bl3 bold mt-3">12 years Post-PhD experience as Assistant Professor, Computer Science Department, COMSATS University, Wah Campus.</li>
                 <li className="gray bold mt-3">2.5 years Pre-PhD experience as Lecturer, Computer Science Department, COMSATS University, Wah Campus.</li>
                 <li  className="spec-bl3 bold mt-3">1 year TA experience during MS studies at CUST Islamabad Campus</li>
               </ul>
+              </div>
+              <div className="row">
               <h3><b className="shadow">ACADEMIC EXPERIENCE</b></h3>
               <ul>
                 <li  className="spec-bl3 bold mt-3">Ex-Acting Chairman Department of IT & CS, PAF-IAST</li>
@@ -302,6 +305,8 @@ const Hero = () => {
                 <li className="gray bold mt-3">Coordinator URAAN Event, Dept of IT & CS, PAF-IAST</li>
                 <li  className="spec-bl3 bold mt-3">many more........</li>
               </ul>
+              </div>
+              <div className="row">
               <h3><b className="shadow"> RELEVANT ACADEMIC EXTERNAL ROLES</b></h3>
               <ul>
                 <li  className="spec-bl3 bold mt-3">Member of HEC National Computing Education Accreditation Council (NCEAC) Accreditation Inspection Committee (AIC) for the accreditation of Universities BS (CS/SE) degree program</li>
@@ -309,6 +314,8 @@ const Hero = () => {
                 <li  className="spec-bl3 bold mt-3">External Examiner for evaluation of MS thesis at CUST Islamabad</li>
                 <li className="gray bold mt-3">Reviewer: Frontier of Information Technology (FIT) International Conference organized by COMSATS Institute of Information Technology (CIIT) technically sponsored by IEEE Islamabad Chapter, IEEE Computer Society and IEEE Industrial Electronics Society</li>
               </ul>
+              </div>
+              <div className="row">
               <h3><b className="shadow"> RELEVANT RESEARCH ACTIVITIES ROLES</b></h3>
               <ul>
                 <li  className="spec-bl3 bold mt-3">Member Academic Committee 1st International Conference on Communication Networks and Embedded Systems 2023, PAF-IAST</li>
@@ -317,8 +324,10 @@ const Hero = () => {
                 <li className="gray bold mt-3">Technical Program Committee (TPC) of Tutorial track of the 14th International Conference on Frontiers of Information Technology (FIT 2016), COMSATS Isb.</li>
                 <li  className="spec-bl3 bold mt-3">Reviewer: Sukkur IBA Journal of Computing and Mathematical Sciences- SJCMS</li>
               </ul>
+              </div>
 
 
+              <div className="row">
               <h3><b className="shadow">EXPERIENCE</b></h3>
               <ul>
                 <li  className="spec-bl3 bold mt-3">C, C++, Java</li>
@@ -329,6 +338,8 @@ const Hero = () => {
                 <li className="gray bold mt-3">Node.js, Vue.js, D3.js</li>
                 <li  className="spec-bl3 bold mt-3">Microsoft SQL Server / MySQL / Oracle 9i</li>
               </ul>
+              </div>
+              <div className="row">
               <h3><b className="shadow">CLOUD COMPUTING SKILLS</b></h3>
               <ul>
                 <li  className="spec-bl3 bold mt-3">Microservices</li>
@@ -338,7 +349,7 @@ const Hero = () => {
               </ul>
             </div>
             <div className="row">
-              <h1><b className="shadow">SCHOLARSHIPS AND DISTINCTIONS</b></h1>
+            <h1><b className="shadow">SCHOLARSHIPS AND DISTINCTIONS</b></h1>
               <ul>
                 <li  className="spec-bl3 bold mt-3">Post-Doc scholarship PAF-IAST.</li>
                 <li className="gray bold mt-3">PhD Scholarship HEC</li>
@@ -349,6 +360,7 @@ const Hero = () => {
                 <li  className="spec-bl3 bold mt-3">HEC Approved Supervisor</li>
               </ul>
             </div>
+              </div>
           </div>
         </div>
       </div>
@@ -361,7 +373,7 @@ const Hero = () => {
 
           <div className="row">
             <div className="col">
-              <h1 className="text-center mt-4"><b className=" shadow  ">RESEARCHES</b></h1>
+              <h1 className="text-center mt-4"><b className="shadow ">RESEARCHES</b></h1>
               <div className="col speclist">
                 <ul>
                   <li className="spec bold">Model-driven Software Engineering</li>
